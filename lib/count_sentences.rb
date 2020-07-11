@@ -19,7 +19,7 @@ class String
     if sentences_array.empty?
       0
     else
-      sentences_array.count
+      sentences_array.length
     end
   end
 end
