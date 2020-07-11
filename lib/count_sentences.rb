@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentences_array = self.split(". ")
     if sentences_array.empty?
-      "zero"
+      0
     else
       sentences_array.count
     end
